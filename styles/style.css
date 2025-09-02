@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.kanit-extrabold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.meie-script-regular {
+  font-family: "Meie Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+  
+}
+
+header {
+    background-image: url('../images/fundo.jpg'); /* Ajuste o caminho se necessário */
+    background-color: #000;
+    color: #fff;
+    background-size: 100% auto; /* Largura completa, altura proporcional */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    font-family: "Kanit", sans-serif;
+   
+}
+header h1 {
+    font-family: "Meie Script", cursive;
+    font-size: 5em; /* Aumente este valor conforme necessário para ajustar o tamanho */
+    word-spacing: 0.1em; /* Ajuste este valor para controlar o espaçamento entre palavras */
+}
+
+header.custom-header img {
+    width: 13%; /* Reduz a largura da imagem pela metade */
+    height: auto; /* Mantém a proporção original da imagem */
+}
+
+/* Estilos específicos para dispositivos móveis */
+@media (max-width: 576px) {
+    header {
+        background-size: cover; /* Cobertura completa para dispositivos móveis */
+        background-position: center; /* Centraliza a imagem no celular */
+    }
+}
+
+.sessao2 {
+    font-family: "Kanit", sans-serif;
+}
+.service-card {
+    background-color: #000; /* Fundo preto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    color: #fff; /* Cor do texto branco para contraste */
+    text-align: center;
+    height: 100%; /* Assegura que os cards tenham a mesma altura */
+    position: relative; /* Necessário para posicionar o ícone absolutamente */
+    margin-bottom: 20px; /* Adiciona uma margem inferior para espaçar os cards */
+}
+.service-card .icon {
+    position: absolute;
+    top: 10px;
+    left: 30px; /* Ícone posicionado no canto superior esquerdo */
+    font-size: 1.5em;
+    color:  #d1a960; /* Cor laranja para o ícone */
+}
+.service-card .card-text {
+    margin-top: 3em; /* Ajuste conforme necessário para posicionamento adequado do texto */
+    font-size: 1.1em;
+}
+
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid  #d1a960; /* Borda preta */
+    border-radius: 0; /* Sem arredondamento */
+    background-color: transparent; /* Fundo transparente */
+    color: #fffcfc; /* Cor da fonte branca */
+    text-decoration: none; /* Remove o sublinhado do link */
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #000; /* Muda o fundo no hover */
+    color: #fff; /* Mantém a cor do texto no hover */
+}
+
+
+
+
+.about-section {
+    background-color: #000; /* Fundo preto */
+    padding: 40px 0; /* Espaçamento vertical */
+}
+.lawyer-image, .img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* Bordas levemente arredondadas, opcional */
+}
+.about-content {
+    font-family: "Kanit", sans-serif;
+    color: #fff; /* Cor do texto branca */
+    text-align: justify; /* Justifica o texto */
+}
+
+.about-title {
+    font-family: "Meie Script", cursive;
+    font-size: 2em; /* Ajuste conforme necessário */
+  
+}
+
+.custom-buttonnn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid  #d1a960; /* Borda preta */
+    border-radius: 0; /* Sem arredondamento */
+    background-color: transparent; /* Fundo transparente */
+    color: #fffcfc; /* Cor da fonte branca */
+    text-decoration: none; /* Remove o sublinhado do link */
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.about-title {
+    font-family: "Meie Script", cursive;
+    font-size: 2em; /* Ajuste conforme necessário */
+  
+}
+
+.icon-destaque {
+    color:  #d1a960; /* Cor amarela */
+    font-size: 1.5em; /* Aumenta o tamanho do ícone */
+    margin-right: 5px; /* Espaço à direita do ícone */
+}
+
+.office-section{
+    font-family: "Kanit", sans-serif;
+    color: #0a0a0a; /* Cor do texto branca */
+    text-align: justify; /* Justifica o texto */
+    background-color: #fafafa;
+}
+
+
+footer {
+    background-color: #000000; /* Fundo preto */
+}
+
+footer img.footer {
+    max-height: 80px; /* Altura máxima para telas maiores */
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    footer img.footer {
+        max-height: 27px; /* Reduz a altura máxima para um terço em telas menores */
+    }
+}
+
+footer .text-white {
+    color: #fff; /* Garante que o texto permaneça branco */
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/* Opcional: Melhorar a aparência dos ícones */
+footer i {
+    font-size: 1.5em; 
+    color: #d1a960;
+}
